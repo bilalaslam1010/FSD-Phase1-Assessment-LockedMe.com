@@ -1,14 +1,16 @@
 # FSD-Phase1-Assessment-LockedMe.com
 
-# Implement OOPS using JAVA with Data Structures and Beyond
-# Project Name: LockedMe.com
-# Features:
+Implement OOPS using JAVA with Data Structures and Beyond
+
+Project Name: LockedMe.com
+
+Features:
 
 Generic features and three operations: 
 
 Retrieving the file names in an ascending order
 
-# Business-level operations:
+Business-level operations:
 
 Option to add a user specified file to the application
 
