@@ -41,11 +41,15 @@ package com.LockedMe;
 
 	    private static final String SECONDARY_MENU_PROMPT =
 	            "   \nSelect any of the following: \n"+
-	            		  "   a -> Add a file\n"+
-	                      "   b -> Delete a file\n"+
-	                      "   c -> Search a file\n"+
-	                      "   d -> GoBack";
-
+	            		"------------------------------------\n"+
+	                    "||     a -> Add a file            ||\n"+
+	                    "------------------------------------\n"+
+	                    "||     b -> Delete a file         ||\n"+
+	                    "------------------------------------\n"+
+	                    "||     c -> Search a file         ||\n"+
+	                    "------------------------------------\n"+
+	                    "||     d -> Return to Main Menu   ||\n"+
+	                    "------------------------------------";
 
 	    void showPrimaryMenu() {
 	        System.out.println(MAIN_MENU_PROMPT);
@@ -64,7 +68,8 @@ package com.LockedMe;
 	                    System.out.println("Thank You");
 	                    System.exit(0);
 	                }
-	                default: showPrimaryMenu();
+	                default: System.out.println("Please enter 1, 2 or 3"); 
+	                showPrimaryMenu();
 		            
 	               
 	            }
