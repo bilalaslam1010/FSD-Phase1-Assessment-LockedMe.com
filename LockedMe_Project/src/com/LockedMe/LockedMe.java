@@ -65,7 +65,7 @@ package com.LockedMe;
 	                    showSecondaryMenu();
 	                }
 	                case 3 : {
-	                    System.out.println("Thank You");
+	                    System.out.println("Thank You for using LockedMe.com");
 	                    System.exit(0);
 	                }
 	                default: System.out.println("Please enter 1, 2 or 3"); 
@@ -107,7 +107,7 @@ package com.LockedMe;
 	                    break;
 	                }
 	                case 'd' : {
-	                    System.out.println("Going Back to MAIN menu");
+	                    System.out.println("Going Back to Main menu");
 	                    showPrimaryMenu();
 	                    break;
 	                }
